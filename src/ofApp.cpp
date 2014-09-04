@@ -3,11 +3,13 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-	ofBackground(30);
+    ofSetDataPathRoot("../Resources/data/");
+    
+    ofBackground(30);
     ofSetFrameRate(60);
 	ofSetVerticalSync(true);
     
-    legoWhite.loadImage("legoWhite_3.png");
+    legoWhite.loadImage("legoWhite_4.png");
     legoPlatte.loadImage("legoPlatte.jpg");
     
     legoSize = 32;
